@@ -27,7 +27,7 @@ When you visit any CSES problem page, a styled box appears at the top showing:
 Make sure to name the folder cses-friends-extension in which the repo is being cloned (to avoid manifest-issues)
 
 ```bash[
-git clone https://github.com/YOUR_USERNAME/cses-friends-extension.git](https://github.com/bhaviksharmawork/cses_friends.git)
+git clone https://github.com/bhaviksharmawork/cses_friends.git
 ```
 
 ### 2. Load in Chrome
