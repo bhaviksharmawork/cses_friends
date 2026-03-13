@@ -24,8 +24,10 @@ When you visit any CSES problem page, a styled box appears at the top showing:
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/cses-friends-extension.git
+Make sure to name the folder cses-friends-extension in which the repo is being cloned (to avoid manifest-issues)
+
+```bash[
+git clone https://github.com/YOUR_USERNAME/cses-friends-extension.git](https://github.com/bhaviksharmawork/cses_friends.git)
 ```
 
 ### 2. Load in Chrome
@@ -33,7 +35,7 @@ git clone https://github.com/YOUR_USERNAME/cses-friends-extension.git
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable **Developer mode** (toggle in the top-right corner)
 3. Click **"Load unpacked"**
-4. Select the `cses-friends-extension` folder you just cloned
+4. Select the `cses-friends-extension` folder you just cloned.
 5. The extension icon should appear in your toolbar
 
 ### 3. Pin the Extension (Optional)
