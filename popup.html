@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSES Friends Solver</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-header">
+    <h1>CSES Friends Solver</h1>
+    <p>Track which friends solved CSES problems</p>
+  </div>
+
+  <div class="add-form">
+    <input
+      type="text"
+      id="name-input"
+      placeholder="Display name"
+      autocomplete="off"
+    />
+    <input
+      type="text"
+      id="id-input"
+      placeholder="CSES User ID"
+      autocomplete="off"
+    />
+    <button id="add-btn">Add</button>
+  </div>
+  <p class="hint">Find User ID in profile URL: cses.fi/problemset/user/<strong>{ID}</strong>/</p>
+
+  <div class="section-label">Friends</div>
+  <ul class="friend-list" id="friend-list"></ul>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "CSES Friends Solver",
+  "version": "1.0.0",
+  "description": "See which of your friends have solved the currently opened CSES problem.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://cses.fi/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://cses.fi/problemset/task/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CSES Friends Solver"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
